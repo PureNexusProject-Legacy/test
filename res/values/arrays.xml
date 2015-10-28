@@ -25,7 +25,7 @@
     </string-array>
 
     <integer-array name="nav_drawer_cat_nums" translatable="false">
-        <item>5</item> <!-- this first part indicates the number of navdrawer frags NOT to be listed -->
+        <item>6</item> <!-- this first part indicates the number of navdrawer frags NOT to be listed -->
         <item>3</item>
         <item>2</item>
         <item>0</item>
@@ -38,6 +38,7 @@
         <item>@string/buildprop_frag_title</item>
         <item>@string/buildprop_frag_title2</item>
         <item>@string/fiswitch_frag_title</item>
+        <item>@string/clockdate_frag_title</item>
         <item>@string/nettraffic_frag_title</item>
         <item>@string/lockscreen_frag_title</item>
         <item>@string/notifdraw_frag_title</item>
@@ -55,6 +56,7 @@
         <item>BuildPropFragment</item>
         <item>EditPropFragment</item>
         <item>FiSwitchFragment</item>
+        <item>ClockDateFragment</item>
         <item>NetworkTrafficFragment</item>
         <item>LockscreenFragment</item>
         <item>NotificationDrawerFragment</item>
@@ -69,6 +71,7 @@
     <!-- Keep them in order as the titles are in -->
     <!-- Also note that icons for items not in navdrawer won't be shown -->
     <array name="nav_drawer_icons" translatable="false">
+        <item>null</item>
         <item>null</item>
         <item>null</item>
         <item>null</item>
@@ -107,6 +110,40 @@
     </string-array>
 
     <string-array name="volbtn_cursor_control_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Clock options -->
+    <string-array name="status_bar_clock_style_entries" translatable="false">
+        <item>@string/status_bar_clock_style_right</item>
+        <item>@string/status_bar_clock_style_center</item>
+        <item>@string/status_bar_clock_style_left</item>
+        <item>@string/status_bar_clock_style_hidden</item>
+    </string-array>
+
+    <string-array name="status_bar_clock_style_entries_rtl" translatable="false">
+        <item>@string/status_bar_clock_style_left</item>
+        <item>@string/status_bar_clock_style_center</item>
+        <item>@string/status_bar_clock_style_right</item>
+        <item>@string/status_bar_clock_style_hidden</item>
+    </string-array>
+
+    <string-array name="status_bar_clock_style_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="status_bar_am_pm_entries" translatable="false">
+        <item>@string/status_bar_am_pm_normal</item>
+        <item>@string/status_bar_am_pm_small</item>
+        <item>@string/status_bar_am_pm_hidden</item>
+    </string-array>
+
+    <string-array name="status_bar_am_pm_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
