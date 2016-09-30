@@ -36,8 +36,8 @@ public class StatusBarFragment extends PreferenceFragment {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.statusbar_fragment);
 
-        mClockDate = (Preference)findPreference(CLOCKDATEFRAG);
-        mNetTraf = (Preference)findPreference(NETWORKTRAFFRAG);
+        mClockDate = findPreference(CLOCKDATEFRAG);
+        mNetTraf = findPreference(NETWORKTRAFFRAG);
     }
 
     @Override
