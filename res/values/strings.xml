@@ -182,6 +182,9 @@
 
   <!-- Misc fragment -->
     <string name="misc_frag_title">Miscellaneous</string>
+    <!-- Misc tuner options -->
+    <string name="tuner_misc_title">Tuner options</string>
+    <string name="tuner_misc_summary">misc tuner modifications</string>
 
   <!-- Navdrawer categories -->
     <string name="interface_cat_title">Interface</string>
@@ -191,6 +194,9 @@
 
   <!-- Navbar fragment -->
     <string name="navbar_frag_title">Navigation bar</string>
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar tuner</string>
+    <string name="navbar_tuner_summary">Customize buttons and layout</string>
 
   <!-- Network traffic fragment -->
     <string name="status_bar_traffic_summary">Network traffic options</string>
@@ -256,12 +262,18 @@
 
   <!-- statusbar fragment -->
     <string name="statusbar_frag_title">Status bar</string>
+    <!-- Preference to show/hide embedded battery percentage -->
+    <string name="show_battery_percentage">Show battery percentage</string>
+    <string name="show_battery_percentage_summary">Show battery percentage when not charging</string>
     <!-- double tap to sleep - statusbar -->
     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
     <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
     <!-- statusbar brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <!-- statusbar icon blacklist -->
+    <string name="status_bar_icon_blacklist_title">Status bar icons</string>
+    <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
 
   <!-- toolbar menu strings -->
     <string name="action_about">About</string>
